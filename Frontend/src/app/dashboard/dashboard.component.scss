@@ -7,11 +7,16 @@
     right: 17px;
     top: 57px;
 }
-
+span{
+  color:solid black;
+  font-weight: bol;
+  font-size:xx-large;
+}
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
   }
+ 
   
   html {
     box-sizing: border-box;
@@ -50,9 +55,11 @@ body {
     display: table;
   }
   
+  
   .title {
-    color: black;
+    color: rgba(32, 32, 248, 0.568);
     text-align: center !important;
+    font-weight: bold;
   }
   
   .button {
@@ -61,7 +68,7 @@ body {
     display: inline-block;
     padding: 8px;
     color: white;
-    background-color: #7b1fa2;
+    background-color: green ;
     text-align: center;
     cursor: pointer;
     width: 100%;

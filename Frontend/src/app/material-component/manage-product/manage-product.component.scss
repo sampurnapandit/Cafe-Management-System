@@ -3,7 +3,7 @@
 }
 
 mat-card {
-    padding: 20px;
+    padding: 30px;
 }
 
 table {
@@ -13,4 +13,9 @@ table {
 ::ng-deep .highlight {
     color: white;
     background: #671AB7;
+}
+span{
+    font-weight: bold;
+    color: solid black;
+    font-size: x-large;
 }
